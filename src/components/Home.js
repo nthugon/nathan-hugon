@@ -1,14 +1,16 @@
 import React from 'react';
-import './Home.css';
+import Hero from './Hero';
 
 const Home = () => (
-  <div className="hero">
-    <div className="hero-text">
-      <p><strong>AppName</strong> serves as your source for ...</p>
-      <p>Leading Question?</p>
-      <p>Reasons you want to use it.</p>
-    </div>
-  </div>
+  <Hero>
+    <Hero.Container>
+      <Hero.TextWrapper>
+        <Hero.Text><strong>AppName</strong> serves as your source for ...</Hero.Text>
+        <Hero.Text>Leading Question?</Hero.Text>
+        <Hero.Text>Reasons you want to use it.</Hero.Text>
+      </Hero.TextWrapper>
+    </Hero.Container>
+  </Hero>
 );
 
 export default Home;

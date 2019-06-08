@@ -47,7 +47,7 @@ const FooterNavLinkText = styled.li`
   font-size: 1.0rem;
 `;
 
-const ContentIcon = styled(Archway)`
+const SampleIcon = styled(Archway)`
   height: 20px;
   width: 20px;
 `;
@@ -69,9 +69,9 @@ const Footer = () => (
         <HomeIcon />
         <FooterNavLinkText>HOME</FooterNavLinkText>
       </FooterNavLink>
-      <FooterNavLink to="/content">
-        <ContentIcon />
-        <FooterNavLinkText>CONTENT</FooterNavLinkText>
+      <FooterNavLink to="/sample">
+        <SampleIcon />
+        <FooterNavLinkText>SAMPLE</FooterNavLinkText>
       </FooterNavLink>
       <FooterNavLink to="/about">
         <InfoCircleIcon />

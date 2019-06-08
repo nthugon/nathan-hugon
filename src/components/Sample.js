@@ -1,14 +1,14 @@
 import React from 'react';
 import Hero from './Hero';
- 
-const About = () => (
+
+const Content = () => (
   <Hero>
     <Hero.Container>
       <Hero.TextWrapper>
-        <Hero.Text>This app is written using styled-components with React.</Hero.Text>
+        <Hero.Text>This is the content of the app.</Hero.Text>
       </Hero.TextWrapper>
     </Hero.Container>
   </Hero>
 );
 
-export default About;
+export default Content;
