@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
+import styled from 'styled-components';
 import Header from './components/Header';
 import Subheading from './components/Subheading';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import About from './components/About';
-import Sample from './components/Sample';
-import styled from 'styled-components';
+import Experiences from './components/Experiences';
+import Projects from './components/Projects';
+import Interests from './components/Interests';
+import Contact from './components/Contact';
+
 
 const Content = styled.div`
   position: absolute;
@@ -39,9 +42,11 @@ class App extends Component {
 
     return (
       <div>
-        <DefaultLayout path="/" exact component={Home} subheading="Home" link="Sample"/>
-        <DefaultLayout path="/sample" exact component={Sample} subheading="Sample" link="Home" />
-        <DefaultLayout path="/about" component={About} subheading="About" link="Sample"/>
+        <DefaultLayout path="/" exact component={Home} subheading="Home" />
+        <DefaultLayout path="/experiences" component={Experiences} subheading="Experiences" />
+        <DefaultLayout path="/projects" component={Projects} subheading="Projects" />
+        <DefaultLayout path="/interests" component={Interests} subheading="Interests" />
+        <DefaultLayout path="/contact" component={Contact} subheading="Contact" />
       </div>
     );
   }

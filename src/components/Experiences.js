@@ -1,14 +1,14 @@
 import React from 'react';
 import Hero from './Hero';
-
-const Content = () => (
+ 
+const Experiences = () => (
   <Hero>
     <Hero.Container>
       <Hero.TextWrapper>
-        <Hero.Text>This is the content of the app.</Hero.Text>
+        <Hero.Text>Content listing work and educational experiences.</Hero.Text>
       </Hero.TextWrapper>
     </Hero.Container>
   </Hero>
 );
 
-export default Content;
+export default Experiences;

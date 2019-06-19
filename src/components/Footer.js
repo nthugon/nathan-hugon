@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { Archway } from 'styled-icons/fa-solid';
-import { Home } from 'styled-icons/fa-solid';
-import { InfoCircle } from 'styled-icons/fa-solid';
+import { Briefcase } from 'styled-icons/octicons';
+import { CodeBlock } from 'styled-icons/boxicons-regular';
+import { BubbleChart } from 'styled-icons/material';
+import { Contact } from 'styled-icons/boxicons-solid';
 
 const FooterWrapper = styled.footer`
   box-sizing: border-box;    
@@ -47,17 +48,22 @@ const FooterNavLinkText = styled.li`
   font-size: 1.0rem;
 `;
 
-const SampleIcon = styled(Archway)`
+const BriefcaseIcon = styled(Briefcase)`
   height: 20px;
   width: 20px;
 `;
 
-const HomeIcon = styled(Home)`
+const CodeBlockIcon = styled(CodeBlock)`
   height: 20px;
   width: 20px;
 `;
 
-const InfoCircleIcon = styled(InfoCircle)`
+const BubbleChartIcon = styled(BubbleChart)`
+  height: 20px;
+  width: 20px;
+`;
+
+const ContactIcon = styled(Contact)`
   height: 20px;
   width: 20px;
 `;
@@ -65,17 +71,21 @@ const InfoCircleIcon = styled(InfoCircle)`
 const Footer = () => ( 
   <FooterWrapper>
     <FooterNav>
-      <FooterNavLink to="/">
-        <HomeIcon />
-        <FooterNavLinkText>HOME</FooterNavLinkText>
+      <FooterNavLink to="/experiences">
+        <BriefcaseIcon />
+        <FooterNavLinkText>EXPERIENCES</FooterNavLinkText>
       </FooterNavLink>
-      <FooterNavLink to="/sample">
-        <SampleIcon />
-        <FooterNavLinkText>SAMPLE</FooterNavLinkText>
+      <FooterNavLink to="/projects">
+        <CodeBlockIcon />
+        <FooterNavLinkText>PROJECTS</FooterNavLinkText>
       </FooterNavLink>
-      <FooterNavLink to="/about">
-        <InfoCircleIcon />
-        <FooterNavLinkText>ABOUT</FooterNavLinkText>
+      <FooterNavLink to="/interests">
+        <BubbleChartIcon />
+        <FooterNavLinkText>INTERESTS</FooterNavLinkText>
+      </FooterNavLink>
+      <FooterNavLink to="/contact">
+        <ContactIcon />
+        <FooterNavLinkText>CONTACT</FooterNavLinkText>
       </FooterNavLink>
     </FooterNav>
   </FooterWrapper>

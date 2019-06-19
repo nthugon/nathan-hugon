@@ -1,14 +1,14 @@
 import React from 'react';
 import Hero from './Hero';
-
-const Home = () => (
+ 
+const Interests = () => (
   <Hero>
     <Hero.Container>
       <Hero.TextWrapper>
-        <Hero.Text><strong>Nathan Thomas Hugon</strong> blah, blah, blah ...</Hero.Text>
+        <Hero.Text>Content listing personal interests.</Hero.Text>
       </Hero.TextWrapper>
     </Hero.Container>
   </Hero>
 );
 
-export default Home;
+export default Interests;
