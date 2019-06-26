@@ -3,7 +3,8 @@ import UnstyledLink from '../shared/UnstyledLink';
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.header`
-  background-color: #78c1ce;
+  background-color: #e75a7c;
+  color: #fafafa;
   position: fixed;
   width: 100%;
   height: 40px;

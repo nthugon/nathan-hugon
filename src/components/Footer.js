@@ -10,12 +10,11 @@ const FooterWrapper = styled.footer`
   box-sizing: border-box;    
   text-align: center;
   padding: 10px 0 0;
-  color: #fafafa;
-  background: #005778;
+  background-color: #377771;
   font-size: 1.6rem;
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 55px;
   bottom: 0;
   left: 0;
   overflow: hidden;

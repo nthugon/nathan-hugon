@@ -15,10 +15,10 @@ const Content = styled.div`
   position: absolute;
   width: 100%;
   top: 115px;
-  bottom: 50px;
+  bottom: 55px;
   overflow: auto; 
   color: #fafafa;      
-  background-color: #d3d3d3;
+  background-color: #fafafa;
   background-size: 100%;
 `;
 
