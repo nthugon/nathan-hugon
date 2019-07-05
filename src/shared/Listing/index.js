@@ -6,13 +6,14 @@ import List from './List';
 import ListItem from './ListItem';
 import Text from './Text';
 import NoWrap from './NoWrap';
+import Link from './Link';
 
 const Listing = styled.div`
-  margin: 0 auto;
-  padding: 40px 0 0 0;
+  margin: 3% auto;
   color: #e75a7c;  
   width: 80%;
   font-size: 1.8rem;
+  border-bottom: 1px solid #e75a7c;
 
   @media (min-width: 768px) {
     width: 50%;
@@ -26,5 +27,6 @@ Listing.List = List;
 Listing.ListItem = ListItem;
 Listing.Text = Text;
 Listing.NoWrap = NoWrap;
+Listing.Link = Link;
 
 export default Listing;
