@@ -9,12 +9,12 @@ import { Contact } from 'styled-icons/boxicons-solid';
 const FooterWrapper = styled.footer`
   box-sizing: border-box;    
   text-align: center;
-  padding: 10px 0 0;
+  padding: 5px 0 0;
   background-color: #377771;
   font-size: 1.6rem;
   position: fixed;
   width: 100%;
-  height: 55px;
+  height: 45px;
   bottom: 0;
   left: 0;
   overflow: hidden;

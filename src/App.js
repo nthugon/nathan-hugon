@@ -14,8 +14,8 @@ import Contact from './components/Contact';
 const Content = styled.div`
   position: absolute;
   width: 100%;
-  top: 115px;
-  bottom: 55px;
+  top: 90px;
+  bottom: 45px;
   overflow: auto; 
   color: #fafafa;      
   background-color: #fafafa;

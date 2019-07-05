@@ -1,14 +1,17 @@
 import React from 'react';
-import Hero from './Hero';
- 
+import styled from 'styled-components';
+
+const Text = styled.p`
+  padding: 40px 0 0 0;
+  text-align: center;
+  color: #e75a7c;
+  margin: 0 auto;
+  width: 50%;
+  font-size: 2.2rem;
+`;
+
 const Contact = () => (
-  <Hero>
-    <Hero.Container>
-      <Hero.TextWrapper>
-        <Hero.Text>Content listing contact info and social media presence.</Hero.Text>
-      </Hero.TextWrapper>
-    </Hero.Container>
-  </Hero>
+  <Text>Content for contact info.</Text>
 );
 
 export default Contact;

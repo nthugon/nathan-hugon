@@ -8,7 +8,7 @@ const SubHeadingContainer = styled.div`
   background-color: #d6dbd2;
   color: #377771;
   width: 100%;
-  height: 75px;
+  height: 50px;
   top: 40px;
   left: 0;
   overflow: hidden;
@@ -17,7 +17,7 @@ const SubHeadingContainer = styled.div`
 
 const Title = styled.h2`
   margin: 0;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   font-size: 2.8rem;
 `;
