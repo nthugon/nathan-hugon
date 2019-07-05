@@ -45,7 +45,7 @@ const Home = () => (
       <ProfilePic src={profilePic}></ProfilePic>
     </ProfilePicContainer>
     <ProfileText>
-      I am a full-stack developer with a background in education and a love for board sports, music, and sourdough baking.
+      My name is Nathan. I am a full-stack developer with a background in education and a love for board sports, music, and sourdough baking.
     </ProfileText>
   </Profile>
 );

@@ -6,6 +6,7 @@ import Subheading from './components/Subheading';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Experiences from './components/Experiences';
+import Education from './components/Education';
 import Projects from './components/Projects';
 import Interests from './components/Interests';
 import Contact from './components/Contact';
@@ -42,8 +43,9 @@ class App extends Component {
 
     return (
       <div>
-        <DefaultLayout path="/" exact component={Home} subheading="Home" />
+        <DefaultLayout path="/" exact component={Home} subheading="Introductions" />
         <DefaultLayout path="/experiences" component={Experiences} subheading="Experiences" />
+        <DefaultLayout path="/education" component={Education} subheading="Education" />
         <DefaultLayout path="/projects" component={Projects} subheading="Projects" />
         <DefaultLayout path="/interests" component={Interests} subheading="Interests" />
         <DefaultLayout path="/contact" component={Contact} subheading="Contact" />
