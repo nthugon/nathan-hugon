@@ -7,6 +7,7 @@ import { Js } from 'styled-icons/fa-brands/Js';
 import { Angular } from 'styled-icons/fa-brands/Angular';
 import { Node } from 'styled-icons/fa-brands/Node';
 import { ReactLogo } from 'styled-icons/fa-brands/ReactLogo';
+import { Github } from 'styled-icons/fa-brands/Github';
 
 const Html5Icon = styled(Html5)`
   height: 75px;
@@ -38,6 +39,11 @@ const ReactLogoIcon = styled(ReactLogo)`
   width: 75px;
 `;
 
+const GithubIcon = styled(Github)`
+  height: 22px;
+  width: 22px;
+`;
+
 const Wrapper = styled.div`
   text-align: center;
 `;
@@ -53,6 +59,9 @@ const Projects = () => (
       </Listing.Subheading>
       <Listing.Subheading>                
         <Listing.Link href="https://kneadandproof.com">kneadandproof.com</Listing.Link>
+      </Listing.Subheading>
+      <Listing.Subheading>
+        <Listing.Link href="https://github.com/nthugon/kneadAndProof"><GithubIcon></GithubIcon>/nthugon/kneadAndProof</Listing.Link>
       </Listing.Subheading>
       <Listing.Text>
         Educational website detailing the art and science of sourdough baking
@@ -71,6 +80,12 @@ const Projects = () => (
       <Listing.Subheading>               
         <Listing.Link href="https://hophub.io">hophub.io</Listing.Link>
       </Listing.Subheading>
+      <Listing.Subheading>
+        <Listing.Link href="https://github.com/nthugon/hophub"><GithubIcon></GithubIcon>/nthugon/hophub</Listing.Link>
+      </Listing.Subheading>
+      <Listing.Subheading>
+        <Listing.Link href="https://github.com/nthugon/hophub-server"><GithubIcon></GithubIcon>/nthugon/hophub-server</Listing.Link>
+      </Listing.Subheading>
       <Listing.Text>
         Web app enabling users to find, save, and share thoughts on beers
       </Listing.Text>
@@ -88,6 +103,9 @@ const Projects = () => (
       </Listing.Subheading>
       <Listing.Subheading>               
         <Listing.Link href="http://nathanhugon.com">nathanhugon.com</Listing.Link>
+      </Listing.Subheading>
+      <Listing.Subheading>
+        <Listing.Link href="https://github.com/nthugon/nathan-hugon"><GithubIcon></GithubIcon>/nthugon/nathan-hugon</Listing.Link>
       </Listing.Subheading>
       <Listing.Text>
         Personal website

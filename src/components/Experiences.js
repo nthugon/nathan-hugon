@@ -16,7 +16,7 @@ const Experiences = () => (
       </Listing.Subheading>
       <Listing.List>
         <Listing.ListItem>
-          Implement and style complex UI features using AngularJS
+          Implement and style complex UI features using Angular
         </Listing.ListItem>
         <Listing.ListItem>
           Build API endpoints and backend infrastructure using .NET and AWS

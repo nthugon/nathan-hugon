@@ -5,7 +5,7 @@ import { Briefcase } from 'styled-icons/octicons';
 import { CodeBlock } from 'styled-icons/boxicons-regular';
 import { BubbleChart } from 'styled-icons/material';
 import { Contact } from 'styled-icons/boxicons-solid';
-import { GraduationCap } from 'styled-icons/fa-solid/GraduationCap'
+import { Graduation } from 'styled-icons/boxicons-solid/Graduation'
 
 const FooterWrapper = styled.footer`
   box-sizing: border-box;    
@@ -53,7 +53,7 @@ const BriefcaseIcon = styled(Briefcase)`
   width: 20px;
 `;
 
-const GraduationCapIcon = styled(GraduationCap)`
+const GraduationIcon = styled(Graduation)`
   height: 20px;
   width: 20px;
 `;
@@ -81,7 +81,7 @@ const Footer = () => (
         <FooterNavLinkText>EXPERIENCES</FooterNavLinkText>
       </FooterNavLink>
       <FooterNavLink to="/education">
-        <GraduationCapIcon />
+        <GraduationIcon />
         <FooterNavLinkText>EDUCATION</FooterNavLinkText>
       </FooterNavLink>
       <FooterNavLink to="/projects">

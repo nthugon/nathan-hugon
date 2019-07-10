@@ -10,6 +10,7 @@ import Link from './Link';
 
 const Listing = styled.div`
   margin: 3% auto;
+  padding-bottom: 2%;
   color: #e75a7c;  
   width: 80%;
   font-size: 1.8rem;
