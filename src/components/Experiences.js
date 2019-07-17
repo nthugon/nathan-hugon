@@ -96,7 +96,7 @@ const Experiences = () => (
           Provided an organized, respectful, and disciplined environment for learning
         </Listing.ListItem>
         <Listing.ListItem>
-          Raised student reading scores an average of 6% (or 2 ½ grade levels)
+          Raised student reading scores an average of 2 ½ grade levels
         </Listing.ListItem>
       </Listing.List>
     </Listing>
