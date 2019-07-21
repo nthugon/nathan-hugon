@@ -14,7 +14,7 @@ const Listing = styled.div`
   color: #e75a7c;  
   width: 80%;
   font-size: 1.8rem;
-  border-bottom: 1px solid #e75a7c;
+  border-bottom: 1px solid #377771;
 
   @media (min-width: 768px) {
     width: 50%;
