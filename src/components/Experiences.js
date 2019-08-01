@@ -4,9 +4,17 @@ import Listing from '../shared/Listing'
 
 const Wrapper = styled.div`
 `;
+
+const Heading = styled.h2`
+  margin-top: 3%;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #377771;
+`;
  
 const Experiences = () => (
   <Wrapper>
+    <Heading>Programming</Heading>
     <Listing>
       <Listing.Heading>
         Software Engineer at Zapproved
@@ -16,13 +24,10 @@ const Experiences = () => (
       </Listing.Subheading>
       <Listing.List>
         <Listing.ListItem>
-          Implement and style complex UI features using Angular
+          Implement and style complex UI features using AngularJS with TypeScript
         </Listing.ListItem>
         <Listing.ListItem>
           Build API endpoints and backend infrastructure using .NET and AWS
-        </Listing.ListItem>
-        <Listing.ListItem>
-          Introduced unit testing to the front end
         </Listing.ListItem>
         <Listing.ListItem>
           Designed and built a horizontally scalable message broker
@@ -52,6 +57,43 @@ const Experiences = () => (
         </Listing.ListItem>
       </Listing.List>
     </Listing>
+    <Heading>Conferences</Heading>
+    <Listing>
+      <Listing.Heading>
+        ML4ALL
+      </Listing.Heading>
+      <Listing.Subheading>
+        May 27th-29th, 2018 | <Listing.NoWrap>Portland, OR</Listing.NoWrap>
+      </Listing.Subheading>
+      <Listing.List>
+        <Listing.ListItem>
+          A conference to encourage the use of Machine Learning in the average developer's toolbox
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Attended sessions on machine learning models, tools, and use cases
+        </Listing.ListItem>
+      </Listing.List>
+    </Listing>
+    <Listing>
+      <Listing.Heading>
+        NG-Conf
+      </Listing.Heading>
+      <Listing.Subheading>
+        April 16th-20th, 2018 | <Listing.NoWrap>Salt Lake City, UT</Listing.NoWrap>
+      </Listing.Subheading>
+      <Listing.List>
+        <Listing.ListItem>
+          World's Original Angular Conference
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Participated in a full day workshop on migrating applications from Angular 1 to 2          
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Attended sessions on a variety of topics including testing, observables, and server side rendering          
+        </Listing.ListItem>
+      </Listing.List>
+    </Listing>
+    <Heading>Past Lives</Heading>
     <Listing>
       <Listing.Heading>
         Delivery Driver at Domino's Pizza
@@ -97,6 +139,54 @@ const Experiences = () => (
         </Listing.ListItem>
         <Listing.ListItem>
           Raised student reading scores an average of 2 ½ grade levels
+        </Listing.ListItem>
+      </Listing.List>
+    </Listing>
+    <Listing>
+      <Listing.Heading>
+        Warehouse Manager at Premier Wood Floors
+      </Listing.Heading>
+      <Listing.Subheading>
+        2006-2007 | <Listing.NoWrap>Tulsa, OK</Listing.NoWrap>
+      </Listing.Subheading>
+      <Listing.List>
+        <Listing.ListItem>
+          Devised a tracking system for materials ordered and used, as well as job progress 
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Consistently communicated with clients and subcontractors on the scheduling and progress of jobs
+        </Listing.ListItem>
+      </Listing.List>
+    </Listing>
+    <Listing>
+      <Listing.Heading>
+        Crew Lead at Gate Masters
+      </Listing.Heading>
+      <Listing.Subheading>
+        2005-2006 | <Listing.NoWrap>Ft Lauderdale, FL</Listing.NoWrap>
+      </Listing.Subheading>
+      <Listing.List>
+        <Listing.ListItem>
+          Installed electronic gate systems  
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Supervised and trained crew members as site lead
+        </Listing.ListItem>
+      </Listing.List>
+    </Listing>
+    <Listing>
+      <Listing.Heading>
+        Remodeler at River City Technologies
+      </Listing.Heading>
+      <Listing.Subheading>
+        2003-2005 | <Listing.NoWrap>Jacksonville, FL</Listing.NoWrap>
+      </Listing.Subheading>
+      <Listing.List>
+        <Listing.ListItem>
+          Participated in planning the remodel of an apartment building in the historic district of Jacksonville  
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Framed walls, hung and finished drywall, and did trim carpentry
         </Listing.ListItem>
       </Listing.List>
     </Listing>
