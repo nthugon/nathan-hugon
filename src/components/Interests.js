@@ -1,5 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import ImageCube from '../shared/ImageCube';
+
+const Wrapper = styled.div`
+`;
 
 const Text = styled.p`
   padding: 40px 0 0 0;
@@ -11,7 +15,19 @@ const Text = styled.p`
 `;
 
 const Interests = () => (
-  <Text>Content for personal interests.</Text>
+  <Wrapper>
+    <Text>Content for personal interests.</Text>
+    <ImageCube>
+      <ImageCube.Cube>
+        <ImageCube.Back background="https://source.unsplash.com/featured/?nature"></ImageCube.Back>
+        <ImageCube.Left background="https://source.unsplash.com/featured/?tree"></ImageCube.Left>
+        <ImageCube.Right background="https://source.unsplash.com/featured/?home"></ImageCube.Right>
+        <ImageCube.Top background="https://source.unsplash.com/featured/?car"></ImageCube.Top>
+        <ImageCube.Bottom background="https://source.unsplash.com/featured/?work"></ImageCube.Bottom>
+        <ImageCube.Front background="https://source.unsplash.com/featured/?"></ImageCube.Front>
+      </ImageCube.Cube>
+    </ImageCube>
+  </Wrapper>
 );
 
 export default Interests;

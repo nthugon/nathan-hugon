@@ -5,7 +5,7 @@ import { Briefcase } from 'styled-icons/octicons';
 import { CodeBlock } from 'styled-icons/boxicons-regular';
 import { BubbleChart } from 'styled-icons/material';
 import { Contact } from 'styled-icons/boxicons-solid';
-import { Graduation } from 'styled-icons/boxicons-solid/Graduation'
+import { Graduation } from 'styled-icons/boxicons-solid/Graduation';
 
 const FooterWrapper = styled.footer`
   box-sizing: border-box;    

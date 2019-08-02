@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Listing from '../shared/Listing'
+import Listing from '../shared/Listing';
 
 const Wrapper = styled.div`
 `;
