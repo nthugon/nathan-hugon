@@ -7,14 +7,16 @@ import ListItem from './ListItem';
 import Text from './Text';
 import NoWrap from './NoWrap';
 import Link from './Link';
+import Divider from './Divider';
+import IconContainer from './IconContainer';
 
 const Listing = styled.div`
-  margin: 3% auto;
-  padding-bottom: 2%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
   color: #e75a7c;  
   width: 80%;
   font-size: 1.8rem;
-  border-bottom: 1px solid #377771;
 
   @media (min-width: 768px) {
     width: 50%;
@@ -29,5 +31,7 @@ Listing.ListItem = ListItem;
 Listing.Text = Text;
 Listing.NoWrap = NoWrap;
 Listing.Link = Link;
+Listing.Divider = Divider;
+Listing.IconContainer = IconContainer;
 
 export default Listing;

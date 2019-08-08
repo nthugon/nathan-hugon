@@ -1,14 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import ContactForm from '../shared/ContactForm';
+import ContentContainer from '../shared/ContentContainer';
 import Listing from '../shared/Listing';
 import { Github } from 'styled-icons/fa-brands/Github';
 import { Linkedin } from 'styled-icons/fa-brands/Linkedin';
 
-const Wrapper = styled.div`
+const ContactContainer = styled(ContentContainer)`
   text-align: center;
   color: #e75a7c;
-  padding-bottom: 2%; 
+  padding-bottom: 30px;
 `;
 
 const GithubIcon = styled(Github)`
@@ -22,7 +23,7 @@ const LinkedinIcon = styled(Linkedin)`
 `;
 
 const Contact = () => (
-  <Wrapper>
+  <ContactContainer>
     <Listing>
       <Listing.Heading>
         Have a question for me?
@@ -51,7 +52,9 @@ const Contact = () => (
     </ContactForm>
     <Listing.Link href="https://github.com/nthugon"><GithubIcon></GithubIcon></Listing.Link>
     <Listing.Link href="https://www.linkedin.com/in/nathanhugon"><LinkedinIcon></LinkedinIcon></Listing.Link>
-  </Wrapper>
+  </ContactContainer>
+
+
 );
 
 export default Contact;

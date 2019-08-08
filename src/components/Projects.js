@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import codeBackground from '../img/code-background.png';
+import ContentContainer from '../shared/ContentContainer';
 import Listing from '../shared/Listing';
 import { Html5 } from 'styled-icons/fa-brands/Html5';
 import { Css3 } from 'styled-icons/fa-brands/Css3';
@@ -43,13 +45,9 @@ const GithubIcon = styled(Github)`
   height: 22px;
   width: 22px;
 `;
-
-const Wrapper = styled.div`
-  text-align: center;
-`;
  
 const Projects = () => (
-  <Wrapper>
+  <ContentContainer background={codeBackground}>
     <Listing>
       <Listing.Heading>
         Knead and Proof
@@ -66,9 +64,12 @@ const Projects = () => (
       <Listing.Text>
         Educational website detailing the art and science of sourdough baking
       </Listing.Text>
-      <Html5Icon></Html5Icon>
-      <Css3Icon></Css3Icon>
-      <JsIcon></JsIcon>
+      <Listing.IconContainer>
+        <Html5Icon></Html5Icon>
+        <Css3Icon></Css3Icon>
+        <JsIcon></JsIcon>
+      </Listing.IconContainer>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -89,10 +90,13 @@ const Projects = () => (
       <Listing.Text>
         Web app enabling users to find, save, and share thoughts on beers
       </Listing.Text>
-      <Html5Icon></Html5Icon>
-      <Css3Icon></Css3Icon>
-      <AngularIcon></AngularIcon>
-      <NodeIcon></NodeIcon>
+      <Listing.IconContainer>
+        <Html5Icon></Html5Icon>
+        <Css3Icon></Css3Icon>
+        <AngularIcon></AngularIcon>
+        <NodeIcon></NodeIcon>
+      </Listing.IconContainer>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -110,11 +114,13 @@ const Projects = () => (
       <Listing.Text>
         Personal website
       </Listing.Text>
-      <Html5Icon></Html5Icon>
-      <Css3Icon></Css3Icon>
-      <ReactLogoIcon></ReactLogoIcon>
+      <Listing.IconContainer>
+        <Html5Icon></Html5Icon>
+        <Css3Icon></Css3Icon>
+        <ReactLogoIcon></ReactLogoIcon>
+      </Listing.IconContainer>
     </Listing>
-  </Wrapper>
+  </ContentContainer>
 );
 
 export default Projects;

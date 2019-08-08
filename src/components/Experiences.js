@@ -1,20 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import ContentContainer from '../shared/ContentContainer';
+import Subheading from '../shared/Subheading';
 import Listing from '../shared/Listing';
 
-const Wrapper = styled.div`
-`;
-
-const Heading = styled.h2`
-  margin-top: 3%;
-  font-size: 2.2rem;
-  text-align: center;
-  color: #377771;
-`;
- 
 const Experiences = () => (
-  <Wrapper>
-    <Heading>Programming</Heading>
+  <ContentContainer>
     <Listing>
       <Listing.Heading>
         Software Engineer at Zapproved
@@ -34,12 +24,13 @@ const Experiences = () => (
           deployed with Terraform using Docker, ECS, and Fargate
         </Listing.ListItem>
         <Listing.ListItem>
-          Served as a member of the alarm council tasked with alleviating the burden of being on support
+          Served as a member of the Alarm Council tasked with alleviating the burden of being on support
         </Listing.ListItem>
         <Listing.ListItem>
           Supervised an engineering intern
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -57,7 +48,7 @@ const Experiences = () => (
         </Listing.ListItem>
       </Listing.List>
     </Listing>
-    <Heading>Conferences</Heading>
+    <Subheading>Conferences</Subheading>
     <Listing>
       <Listing.Heading>
         ML4ALL
@@ -73,6 +64,7 @@ const Experiences = () => (
           Attended sessions on machine learning models, tools, and use cases
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -93,7 +85,7 @@ const Experiences = () => (
         </Listing.ListItem>
       </Listing.List>
     </Listing>
-    <Heading>Past Lives</Heading>
+    <Subheading>Past Lives</Subheading>
     <Listing>
       <Listing.Heading>
         Delivery Driver at Domino's Pizza
@@ -109,6 +101,7 @@ const Experiences = () => (
           Ranked as one of the store’s “Top 5” employees based on customer feedback
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -125,6 +118,7 @@ const Experiences = () => (
           Increased district benchmark test scores by 20% over previous years
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -141,6 +135,7 @@ const Experiences = () => (
           Raised student reading scores an average of 2 ½ grade levels
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -157,6 +152,7 @@ const Experiences = () => (
           Consistently communicated with clients and subcontractors on the scheduling and progress of jobs
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -173,6 +169,7 @@ const Experiences = () => (
           Supervised and trained crew members as site lead
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -190,7 +187,7 @@ const Experiences = () => (
         </Listing.ListItem>
       </Listing.List>
     </Listing>
-  </Wrapper>
+  </ContentContainer>
 );
 
 export default Experiences;

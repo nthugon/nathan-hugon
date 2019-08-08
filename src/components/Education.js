@@ -1,12 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import ContentContainer from '../shared/ContentContainer';
 import Listing from '../shared/Listing';
-
-const Wrapper = styled.div`
-`;
  
 const Education = () => (
-  <Wrapper>
+  <ContentContainer>
     <Listing>
       <Listing.Heading>
         Code Fellows PDX (Alchemy Code Lab)
@@ -17,6 +14,7 @@ const Education = () => (
       <Listing.Text>
         Certificate - Advanced Full-Stack JavaScript
       </Listing.Text>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Listing>
       <Listing.Heading>
@@ -29,7 +27,7 @@ const Education = () => (
         Bachelor of Arts in English
       </Listing.Text>
     </Listing>
-  </Wrapper>
+  </ContentContainer>
 );
 
 export default Education;
