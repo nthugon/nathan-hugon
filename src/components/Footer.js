@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { Briefcase } from 'styled-icons/octicons';
 import { CodeBlock } from 'styled-icons/boxicons-regular';
-import { BubbleChart } from 'styled-icons/material';
 import { Contact } from 'styled-icons/boxicons-solid';
 import { Graduation } from 'styled-icons/boxicons-solid/Graduation';
 
@@ -63,11 +62,6 @@ const CodeBlockIcon = styled(CodeBlock)`
   width: 20px;
 `;
 
-const BubbleChartIcon = styled(BubbleChart)`
-  height: 20px;
-  width: 20px;
-`;
-
 const ContactIcon = styled(Contact)`
   height: 20px;
   width: 20px;
@@ -87,10 +81,6 @@ const Footer = () => (
       <FooterNavLink to="/projects">
         <CodeBlockIcon />
         <FooterNavLinkText>PROJECTS</FooterNavLinkText>
-      </FooterNavLink>
-      <FooterNavLink to="/interests">
-        <BubbleChartIcon />
-        <FooterNavLinkText>INTERESTS</FooterNavLinkText>
       </FooterNavLink>
       <FooterNavLink to="/contact">
         <ContactIcon />

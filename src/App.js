@@ -8,9 +8,7 @@ import Home from './components/Home';
 import Experiences from './components/Experiences';
 import Education from './components/Education';
 import Projects from './components/Projects';
-import Interests from './components/Interests';
 import Contact from './components/Contact';
-
 
 const Content = styled.div`
   position: absolute;
@@ -47,7 +45,6 @@ class App extends Component {
         <DefaultLayout path="/experiences" component={Experiences} subheading="Experiences" />
         <DefaultLayout path="/education" component={Education} subheading="Education" />
         <DefaultLayout path="/projects" component={Projects} subheading="Projects" />
-        <DefaultLayout path="/interests" component={Interests} subheading="Interests" />
         <DefaultLayout path="/contact" component={Contact} subheading="Contact" />
       </div>
     );
