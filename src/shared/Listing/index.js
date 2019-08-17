@@ -13,7 +13,7 @@ import IconContainer from './IconContainer';
 const Listing = styled.div`
   text-align: center;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 20px;
   color: #e75a7c;  
   width: 80%;
   font-size: 1.8rem;

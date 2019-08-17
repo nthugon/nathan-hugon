@@ -6,7 +6,7 @@ import Listing from '../shared/Listing';
 import { Github } from 'styled-icons/fa-brands/Github';
 import { Linkedin } from 'styled-icons/fa-brands/Linkedin';
 
-const ContactContainer = styled(ContentContainer)`
+const StyledContentContainer = styled(ContentContainer)`
   text-align: center;
   color: #e75a7c;
   padding-bottom: 30px;
@@ -23,7 +23,7 @@ const LinkedinIcon = styled(Linkedin)`
 `;
 
 const Contact = () => (
-  <ContactContainer>
+  <StyledContentContainer>
     <Listing>
       <Listing.Heading>
         Have a question for me?
@@ -52,9 +52,7 @@ const Contact = () => (
     </ContactForm>
     <Listing.Link href="https://github.com/nthugon"><GithubIcon></GithubIcon></Listing.Link>
     <Listing.Link href="https://www.linkedin.com/in/nathanhugon"><LinkedinIcon></LinkedinIcon></Listing.Link>
-  </ContactContainer>
-
-
+  </StyledContentContainer>
 );
 
 export default Contact;

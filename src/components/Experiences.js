@@ -47,6 +47,7 @@ const Experiences = () => (
           Designed, built, and wrote the narrative for a web-based software demo
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Subheading>Conferences</Subheading>
     <Listing>
@@ -78,12 +79,13 @@ const Experiences = () => (
           World's Original Angular Conference
         </Listing.ListItem>
         <Listing.ListItem>
-          Participated in a full day workshop on migrating applications from Angular 1 to 2          
+          Participated in a full day workshop on migrating applications from AngularJS to Angular          
         </Listing.ListItem>
         <Listing.ListItem>
           Attended sessions on a variety of topics including testing, observables, and server side rendering          
         </Listing.ListItem>
       </Listing.List>
+      <Listing.Divider></Listing.Divider>
     </Listing>
     <Subheading>Past Lives</Subheading>
     <Listing>
