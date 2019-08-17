@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 const ContentContainer = styled.div`
-  background-image: ${props => `url(${props.background})`};
+  background: ${props => `url(${props.background}) no-repeat center`};
+  background-size: cover;
 `;
 
 export default ContentContainer;

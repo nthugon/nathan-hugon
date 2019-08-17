@@ -1,6 +1,17 @@
 import React from 'react';
-import profilePic from '../img/nathan-profile.JPG';
+import profilePic from '../img/nathan.jpg';
 import styled from 'styled-components';
+import baking from '../img/baking.jpg';
+import skateboarding from '../img/skateboarding.jpg';
+import skateboarding2 from '../img/skateboarding2.jpg';
+import music from '../img/music.jpg';
+import code from '../img/code.jpg';
+import snowskating from '../img/snowskating.jpg';
+import ImageCube from '../shared/ImageCube';
+
+const Wrapper = styled.div`
+  padding-top: 50px;
+`;
 
 const Profile = styled.div` 
   margin: 60px 0;
@@ -67,15 +78,27 @@ const ProfileText = styled.div`
 `;
 
 const Home = () => (
-  <Profile>
-    <ProfilePicContainer>
-      <ProfilePic src={profilePic}></ProfilePic>
-    </ProfilePicContainer>
-    <ProfileText>
-      My name is Nathan. I am a full-stack developer with a background in education and a love for board sports, music, and sourdough baking.
-      Whether working in React and Node, Angular and .NET, or any other stack, I strive to write code that is modular, flexible, and easy to read.
-    </ProfileText>
-  </Profile>
+  <Wrapper>
+    <ImageCube>
+      <ImageCube.Cube>
+        <ImageCube.Back background={music}></ImageCube.Back>
+        <ImageCube.Left background={snowskating}></ImageCube.Left>
+        <ImageCube.Right background={profilePic}></ImageCube.Right>
+        <ImageCube.Top background={baking}></ImageCube.Top>
+        <ImageCube.Bottom background={skateboarding}></ImageCube.Bottom>
+        <ImageCube.Front background={skateboarding2}></ImageCube.Front>
+      </ImageCube.Cube>
+    </ImageCube>
+    <Profile>
+      <ProfilePicContainer>
+        <ProfilePic src={profilePic}></ProfilePic>
+      </ProfilePicContainer>
+      <ProfileText>
+        My name is Nathan. I am a full-stack developer with a background in education and a love for board sports, music, and sourdough baking.
+        Whether working in React and Node, Angular and .NET, or any other stack, I strive to write code that is modular, flexible, and easy to read.
+      </ProfileText>
+    </Profile>
+  </Wrapper>
 );
 
 export default Home;

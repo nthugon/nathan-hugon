@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import codeBackground from '../img/code-background.png';
 import ContentContainer from '../shared/ContentContainer';
 import Listing from '../shared/Listing';
 import { Html5 } from 'styled-icons/fa-brands/Html5';
@@ -47,7 +46,7 @@ const GithubIcon = styled(Github)`
 `;
  
 const Projects = () => (
-  <ContentContainer background={codeBackground}>
+  <ContentContainer>
     <Listing>
       <Listing.Heading>
         Knead and Proof
