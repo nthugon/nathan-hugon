@@ -14,14 +14,29 @@ const Experiences = () => (
       </Listing.Subheading>
       <Listing.List>
         <Listing.ListItem>
-          Implement and style complex UI features using AngularJS with TypeScript
+          Build backend services, RESTful APIs, and workers within a microservices architecture
         </Listing.ListItem>
         <Listing.ListItem>
-          Build API endpoints and backend infrastructure using .NET and AWS
+          Implement and style UI features using AngularJS and Angular with TypeScript
         </Listing.ListItem>
         <Listing.ListItem>
-          Designed and built a horizontally scalable message broker
-          deployed with Terraform using Docker, ECS, and Fargate
+          Actively participate in Scrum ceremonies that guide our sprint work according to Agile principles
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Implement cron jobs and serverless computing using AWS Lambda functions
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Manage pub/sub communication between services and workers using AWS SNS and SQS
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Use Terraform to create, modify, and manage infrastructure as code
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Use AWS EKS to run Kubernetes container orchestration
+        </Listing.ListItem>
+        <Listing.ListItem>
+          Serve as a member of the Architecture Working Group that creates, compiles, and communicates
+          programming standards, best practices, and exemplars to the Engineering department
         </Listing.ListItem>
         <Listing.ListItem>
           Served as a member of the Alarm Council tasked with alleviating the burden of being on support
@@ -89,105 +104,12 @@ const Experiences = () => (
     </Listing>
     <Subheading>Past Lives</Subheading>
     <Listing>
-      <Listing.Heading>
-        Delivery Driver at Domino's Pizza
-      </Listing.Heading>
-      <Listing.Subheading>
-        2011-2016 | <Listing.NoWrap>Beaverton, OR</Listing.NoWrap>
-      </Listing.Subheading>
-      <Listing.List>
-        <Listing.ListItem>
-          Provided friendly service while taking orders, handling payments, and making deliveries
-        </Listing.ListItem>
-        <Listing.ListItem>
-          Ranked as one of the store’s “Top 5” employees based on customer feedback
-        </Listing.ListItem>
-      </Listing.List>
-      <Listing.Divider></Listing.Divider>
-    </Listing>
-    <Listing>
-      <Listing.Heading>
-        Language Arts Teacher at Wilson Middle School
-      </Listing.Heading>
-      <Listing.Subheading>
-        2008-2011 | <Listing.NoWrap>Tulsa, OK</Listing.NoWrap>
-      </Listing.Subheading>
-      <Listing.List>
-        <Listing.ListItem>
-          Taught reading and writing through the exploration of literature
-        </Listing.ListItem>
-        <Listing.ListItem>
-          Increased district benchmark test scores by 20% over previous years
-        </Listing.ListItem>
-      </Listing.List>
-      <Listing.Divider></Listing.Divider>
-    </Listing>
-    <Listing>
-      <Listing.Heading>
-        English Teacher at Terry Parker High School
-      </Listing.Heading>
-      <Listing.Subheading>
-        2007-2008 | <Listing.NoWrap>Jacksonville, FL</Listing.NoWrap>
-      </Listing.Subheading>
-      <Listing.List>
-        <Listing.ListItem>
-          Provided an organized, respectful, and disciplined environment for learning
-        </Listing.ListItem>
-        <Listing.ListItem>
-          Raised student reading scores an average of 2 ½ grade levels
-        </Listing.ListItem>
-      </Listing.List>
-      <Listing.Divider></Listing.Divider>
-    </Listing>
-    <Listing>
-      <Listing.Heading>
-        Warehouse Manager at Premier Wood Floors
-      </Listing.Heading>
-      <Listing.Subheading>
-        2006-2007 | <Listing.NoWrap>Tulsa, OK</Listing.NoWrap>
-      </Listing.Subheading>
-      <Listing.List>
-        <Listing.ListItem>
-          Devised a tracking system for materials ordered and used, as well as job progress 
-        </Listing.ListItem>
-        <Listing.ListItem>
-          Consistently communicated with clients and subcontractors on the scheduling and progress of jobs
-        </Listing.ListItem>
-      </Listing.List>
-      <Listing.Divider></Listing.Divider>
-    </Listing>
-    <Listing>
-      <Listing.Heading>
-        Crew Lead at Gate Masters
-      </Listing.Heading>
-      <Listing.Subheading>
-        2005-2006 | <Listing.NoWrap>Ft Lauderdale, FL</Listing.NoWrap>
-      </Listing.Subheading>
-      <Listing.List>
-        <Listing.ListItem>
-          Installed electronic gate systems  
-        </Listing.ListItem>
-        <Listing.ListItem>
-          Supervised and trained crew members as site lead
-        </Listing.ListItem>
-      </Listing.List>
-      <Listing.Divider></Listing.Divider>
-    </Listing>
-    <Listing>
-      <Listing.Heading>
-        Remodeler at River City Technologies
-      </Listing.Heading>
-      <Listing.Subheading>
-        2003-2005 | <Listing.NoWrap>Jacksonville, FL</Listing.NoWrap>
-      </Listing.Subheading>
-      <Listing.List>
-        <Listing.ListItem>
-          Participated in planning the remodel of an apartment building in the historic district of Jacksonville  
-        </Listing.ListItem>
-        <Listing.ListItem>
-          Framed walls, hung and finished drywall, and did trim carpentry
-        </Listing.ListItem>
-      </Listing.List>
+      <Listing.Text>
+        Prior to a career in software development, I have been in food service as a pizza maker and
+        delivery driver, in education as a middle school and high school teacher, and in construction as both a
+        skilled worker and a manager. These experiences have helped shape me into the craftsperson,
+        leader, and mentor that I am today.  
+      </Listing.Text>
     </Listing>
   </ContentContainer>
 );
