@@ -8,7 +8,7 @@ const Left = styled.div`
   background-color: #333;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: translateX(-100px) rotateY(90deg);  
+  transform: translateX(-100px) rotateY(270deg);
 `;
 
 export default Left;

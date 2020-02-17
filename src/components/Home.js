@@ -4,7 +4,7 @@ import ContentContainer from '../shared/ContentContainer';
 import Listing from '../shared/Listing';
 import profilePic from '../img/nathan.jpg';
 import baking from '../img/baking.jpg';
-import skateboarding from '../img/skateboarding.jpg';
+import code from '../img/code.jpg';
 import skateboarding2 from '../img/skateboarding2.jpg';
 import music from '../img/music.jpg';
 import snowskating from '../img/snowskating.jpg';
@@ -23,17 +23,17 @@ const Home = () => (
     <ImageCubeContainer>
       <ImageCube>
         <ImageCube.Cube>
-          <ImageCube.Back background={music}></ImageCube.Back>
-          <ImageCube.Left background={snowskating}></ImageCube.Left>
+          <ImageCube.Back background={baking}></ImageCube.Back>
+          <ImageCube.Left background={code}></ImageCube.Left>
           <ImageCube.Right background={profilePic}></ImageCube.Right>
-          <ImageCube.Top background={baking}></ImageCube.Top>
-          <ImageCube.Bottom background={skateboarding}></ImageCube.Bottom>
+          <ImageCube.Top background={snowskating}></ImageCube.Top>
+          <ImageCube.Bottom background={music}></ImageCube.Bottom>
           <ImageCube.Front background={skateboarding2}></ImageCube.Front>
         </ImageCube.Cube>
       </ImageCube>
     </ImageCubeContainer>
     <Text>
-      Hi, my name is Nathan. I am a full-stack developer with a background in education and a love for board sports, music, and sourdough baking.
+      Hi, my name is Nathan. I am a full-stack developer with a love for board sports, music, and sourdough baking.
       Whether working in React and Node, Angular and .NET, or any other stack, I strive to write code that is modular, flexible, and easy to read.
     </Text>
   </ContentContainer>
