@@ -63,6 +63,9 @@ const Projects = () => (
       <Listing.Text>
         Educational website detailing the art and science of sourdough baking
       </Listing.Text>
+      <Listing.Text>
+        Built using HTML, CSS, and vanilla JS
+      </Listing.Text>
       <Listing.IconContainer>
         <Html5Icon></Html5Icon>
         <Css3Icon></Css3Icon>
@@ -89,9 +92,10 @@ const Projects = () => (
       <Listing.Text>
         Web app enabling users to find, save, and share thoughts on beers
       </Listing.Text>
+      <Listing.Text>
+        Built using the MEAN stack (MongoDB, Express, AngularJS, and Node)
+      </Listing.Text>
       <Listing.IconContainer>
-        <Html5Icon></Html5Icon>
-        <Css3Icon></Css3Icon>
         <AngularIcon></AngularIcon>
         <NodeIcon></NodeIcon>
       </Listing.IconContainer>
@@ -113,9 +117,10 @@ const Projects = () => (
       <Listing.Text>
         Personal website
       </Listing.Text>
+      <Listing.Text>
+        Built using React with Styled Components
+      </Listing.Text>
       <Listing.IconContainer>
-        <Html5Icon></Html5Icon>
-        <Css3Icon></Css3Icon>
         <ReactLogoIcon></ReactLogoIcon>
       </Listing.IconContainer>
     </Listing>
