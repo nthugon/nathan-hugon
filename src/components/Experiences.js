@@ -14,7 +14,7 @@ const Experiences = () => (
       </Listing.Subheading>
       <Listing.List>
         <Listing.ListItem>
-          Build backend services, RESTful APIs, and workers within a microservices architecture
+          Build backend services, APIs, and workers within a microservices architecture using C# in .NET
         </Listing.ListItem>
         <Listing.ListItem>
           Implement and style UI features using AngularJS and Angular with TypeScript
@@ -23,7 +23,7 @@ const Experiences = () => (
           Actively participate in Scrum ceremonies that guide our sprint work according to Agile principles
         </Listing.ListItem>
         <Listing.ListItem>
-          Implement cron jobs and serverless computing using AWS Lambda functions
+          Implement serverless computing and cron jobs using AWS Lambda functions
         </Listing.ListItem>
         <Listing.ListItem>
           Manage pub/sub communication between services and workers using AWS SNS and SQS

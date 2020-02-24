@@ -28,7 +28,7 @@ const Header = () => (
   <HeaderWrapper>
     <HeaderText>
       <UnstyledLink to="/">
-        <HeaderPointer>Nathan Thomas Hugon</HeaderPointer>
+        <HeaderPointer>Nathan Hugon</HeaderPointer>
       </UnstyledLink>       
     </HeaderText>
   </HeaderWrapper>

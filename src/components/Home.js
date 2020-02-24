@@ -33,7 +33,7 @@ const Home = () => (
       </ImageCube>
     </ImageCubeContainer>
     <Text>
-      Hi, my name is Nathan. I am a full-stack developer with a love for board sports, music, and sourdough baking.
+      Hi, my name is Nathan. I am a full-stack developer with a love for outdoor adventure, music, and sourdough baking.
       Whether working in React and Node, Angular and .NET, or any other stack, I strive to write code that is modular, flexible, and easy to read.
     </Text>
   </ContentContainer>
