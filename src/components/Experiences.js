@@ -32,10 +32,10 @@ const Experiences = () => (
           Use Terraform to create, modify, and manage infrastructure as code
         </Listing.ListItem>
         <Listing.ListItem>
-          Use AWS EKS to run Kubernetes container orchestration
+          Use Octopus and AWS EKS to run Kubernetes container orchestration
         </Listing.ListItem>
         <Listing.ListItem>
-          Serve as a member of the Architecture Working Group that creates, compiles, and communicates
+          Served as a member of the Architecture Working Group that creates, compiles, and communicates
           programming standards, best practices, and exemplars to the Engineering department
         </Listing.ListItem>
         <Listing.ListItem>

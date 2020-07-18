@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import ContentContainer from '../shared/ContentContainer';
 import Listing from '../shared/Listing';
-import profilePic from '../img/nathan.jpg';
+import profilePic from '../img/nathan-hugon-hs.jpg';
 import baking from '../img/baking.jpg';
-import code from '../img/code.jpg';
+import beach from '../img/beach-cropped.jpg';
 import skateboarding2 from '../img/skateboarding2.jpg';
 import music from '../img/music.jpg';
 import snowskating from '../img/snowskating.jpg';
@@ -23,11 +23,11 @@ const Home = () => (
     <ImageCubeContainer>
       <ImageCube>
         <ImageCube.Cube>
-          <ImageCube.Back background={baking}></ImageCube.Back>
-          <ImageCube.Left background={code}></ImageCube.Left>
+          <ImageCube.Back background={beach}></ImageCube.Back>
+          <ImageCube.Left background={music}></ImageCube.Left>
           <ImageCube.Right background={profilePic}></ImageCube.Right>
           <ImageCube.Top background={snowskating}></ImageCube.Top>
-          <ImageCube.Bottom background={music}></ImageCube.Bottom>
+          <ImageCube.Bottom background={baking}></ImageCube.Bottom>
           <ImageCube.Front background={skateboarding2}></ImageCube.Front>
         </ImageCube.Cube>
       </ImageCube>
