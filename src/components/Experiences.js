@@ -52,7 +52,7 @@ const Experiences = () => (
         Contract Web Developer at ACR Systems
       </Listing.Heading>
       <Listing.Subheading>
-        2016-2017 | Remote <Listing.NoWrap>(Jacksonville, FL)</Listing.NoWrap>
+        2016 | Remote <Listing.NoWrap>(Jacksonville, FL)</Listing.NoWrap>
       </Listing.Subheading>
       <Listing.List>
         <Listing.ListItem>
